@@ -1,0 +1,7 @@
+.canvas {
+    margin-top: 500px;
+    position: absolute;
+    z-index: -1;
+    overflow-y: hidden;
+}
+  

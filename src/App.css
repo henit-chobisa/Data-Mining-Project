@@ -12,11 +12,41 @@ div {
   overflow-y: hidden;
 }
 
+.questionText:hover {
+  color: #00FFFF;
+}
+
 .questionText {
   color: white;
   font-size: 100px;
   width: 50%;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.emailTaker{
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+}
+
+.emailTitle {
+  color: white;
+ font-family: sans-serif;
+  margin-right: 55.5vw;
+}
+.emailInput:focus {
+  border: none;
+  outline: none;
+}
+
+.emailInput {
+  background-color: transparent;
+  font-size: 50px;
+  width: 50vw;
+  color: white;
+  border: none;
+  margin-right: 27vw;
 }
 
 .introLine {
